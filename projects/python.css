@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+
+
+html,
+body {
+    display: flex;
+    font-weight: 500;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+
+}
+
+
+.py_logo{
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+
+}
+
+header {
+    border: 3px solid #ccc;
+    height: 100%;
+    color: white;
+    background-color: #038998;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav h1 {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: #038998;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+/* main section */
+
+main {
+    padding: 50px;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 50px;
+
+}
+
+section article {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+section h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+
+code {
+  
+    line-height: 2;
+    background: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width:480px) {
+    body {
+        flex-direction: column;
+    }
+}
