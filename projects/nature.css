@@ -73,19 +73,19 @@ nav li:hover{
 
 
 .pimg1 {
-    background-image: url(/media/p3.jpg);
+    background-image: url(media/p3.jpg);
     min-height: 100%;
 
 
 }
 
 .pimg2 {
-    background-image: url(/media/p2.jpg);
+    background-image: url(media/p2.jpg);
     height: 400px;
 }
 
 .pimg3 {
-    background-image: url(/media/p4.jpg);
+    background-image: url(media/p4.jpg);
     min-height: 400px;
 }
 

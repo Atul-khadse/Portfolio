@@ -7,7 +7,7 @@
 
 body{
     height: 100vh;
-    background-image: url(/media/giphy.gif);
+    background-image: url(media/giphy.gif);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
